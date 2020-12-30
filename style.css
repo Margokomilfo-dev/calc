@@ -35,7 +35,12 @@ h1 {
   background-color: pink;
   font-size: 22px;
   margin: 0 2px 10px 2px;
+  cursor: pointer;
 }
+.buttons button:active, .buttons button:focus {
+  outline: none;
+}
+
 .resul input{
   width: 200px;
   height: 30px;
